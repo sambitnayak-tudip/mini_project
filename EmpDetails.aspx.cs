@@ -21,29 +21,29 @@ namespace MiniProject
         {
             if (RadNumericTextBoxEmpID.Text == string.Empty || RadNumericTextBoxEmpID.Text == "0")
             {
-                //Response.Write("EmployeeID cannot be empty or Zero");
+             
             }
            
             else if (RadTextBoxFN.Text == string.Empty)
             {
-               // Response.Write("Employee First Name can't be empty");
+               
 
             }
             else if (RadTextBoxLN.Text == string.Empty)
             {
-               // Response.Write("Employee Last Name can't be empty");
+              
             }
             else if (RadTextBoxCity.Text == string.Empty)
             {
-                //Response.Write("City can't be empty");
+               
             }
             else if (RadTextBoxState.Text == string.Empty)
             {
-               // Response.Write("State can't be empty");
+              
             }
             else if (RadNumericTextBoxZip.Text == string.Empty)
             {
-               // Response.Write("Zip cannot be empty or Zero");
+              
             }
             else
             {
